@@ -1,0 +1,74 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+require_relative '../node_modules/react-native-unimodules/cocoapods.rb'
+
+platform :ios, '10.0'
+
+target 'Cogniable' do
+  use_unimodules!
+  config = use_native_modules!
+
+  permissions_path = '../node_modules/react-native-permissions/ios'
+  pod 'Permission-MediaLibrary', :path => "#{permissions_path}/MediaLibrary"
+  pod 'Permission-PhotoLibrary', :path => "#{permissions_path}/PhotoLibrary"
+  pod 'Permission-PhotoLibraryAddOnly', :path => "#{permissions_path}/PhotoLibraryAddOnly"
+
+  
+
+  use_react_native!(:path => config["reactNativePath"])
+
+  pod 'UMCore', path: '../node_modules/@unimodules/core/ios'
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+  pod 'RNSound', :path => '../node_modules/react-native-sound'
+  
+  pod 'RNCharts', :path => '../node_modules/react-native-charts-wrapper'
+
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
+  target 'CogniableTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  # use_flipper!
+  post_install do |installer|
+    find_and_replace("Pods/RCT-Folly/folly/synchronization/DistributedMutex-inl.h",
+    "atomic_notify_one(state)", "folly::atomic_notify_one(state)") 
+    find_and_replace("Pods/RCT-Folly/folly/synchronization/DistributedMutex-inl.h",
+    "atomic_wait_until(&state, previous | data, deadline)", "folly::atomic_wait_until(&state, previous | data, deadline)")    
+  end
+end
+
+target 'Cogniable-tvOS' do
+  # Pods for Cogniable-tvOS
+
+  target 'Cogniable-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
+
+target 'OneSignalNotificationServiceExtension' do
+  pod 'OneSignal', '>= 2.9.3', '< 3.0'
+end
+
+def find_and_replace(dir, findstr, replacestr)
+  Dir[dir].each do |name|
+      text = File.read(name)
+      replace = text.gsub(findstr,replacestr)
+      replaced = text.index(replacestr)
+      if replaced == nil && text != replace
+          puts "Fix: " + name
+          File.open(name, "w") { |file| file.puts replace }
+          STDOUT.flush
+      end
+  end
+  Dir[dir + '*/'].each(&method(:find_and_replace))
+end
+
+

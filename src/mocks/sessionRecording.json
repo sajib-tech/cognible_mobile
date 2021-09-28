@@ -1,0 +1,29 @@
+
+mutaion {
+    sessionRecording(
+        input:{
+            targets:"VGFyZ2V0QWxsb2NhdGVUeXBlOjYyNTM=",----------------------------> TargetId
+            sessions:"U2Vzc2lvbk5hbWVUeXBlOjE=",----------------------------> SessionId
+            sessionRecord:[
+                    {
+                        trial:"Correct",------>String for correct answer(Correct) 
+                        prompt:"", 
+                        sd:"", 
+                        step:""
+                    }
+            ]
+        }
+    )
+}
+
+{
+    "data": {
+        "sessionRecording": {
+            "details": {
+                "id": "U2Vzc2lvblJlY29yZGluZ1R5cGU6MzQxNDQ=",
+                "Duration": null
+            }
+        }
+    }
+}
+

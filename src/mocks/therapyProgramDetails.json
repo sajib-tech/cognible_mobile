@@ -1,0 +1,56 @@
+{
+    "data": {
+        "programDetails": {
+            "id": "UHJvZ3JhbUFyZWFUeXBlOjE=",
+            "name": "Occupational Therapy",
+            "videos": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "UHJvZ3JhbVZpZGVvc1R5cGU6MQ==",
+                            "url": "https://vimeo.com/349615984/efa5186731"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "UHJvZ3JhbVZpZGVvc1R5cGU6NQ==",
+                            "url": "https://vimeo.com/348534863/63065a55c2"
+                        }
+                    }
+                ]
+            },
+            "assessments": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "QmVoYXZpb3VyQXNzZXNzbWVudHNUeXBlOjM=",
+                            "name": "Cogniable Assessment"
+                        }
+                    }
+                ]
+            },
+            "sessions": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "U2Vzc2lvbk5hbWVUeXBlOjE=",
+                            "name": "Morning"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "U2Vzc2lvbk5hbWVUeXBlOjI=",
+                            "name": "Afternoon"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "U2Vzc2lvbk5hbWVUeXBlOjM=",
+                            "name": "Evening"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

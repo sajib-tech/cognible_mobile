@@ -1,0 +1,113 @@
+
+GetDecel Templates
+query{
+    getTemplate(student:"U3R1ZGVudFR5cGU6MTYz"){
+        edges{
+            node{
+                id,
+                behavior{
+                    id,
+                    behaviorName,
+                    definition
+                },
+                environment {
+                  edges {
+                      node {
+                          id,
+                          name,
+                      }
+                    }
+                },
+                status{
+                    id,
+                    statusName
+                },
+                behaviorDef,
+                behaviorDescription
+                
+            }
+        }
+    }
+}
+
+Press to record
+mutation {
+    createDecel(input:{template:"RGVjZWxCZWhhdmlvclRlbXBsYXRlVHlwZToyNDU="})
+       { 
+           details{
+                id,
+                date,
+                template{
+                    id,
+                    behaviorDef,
+                    behaviorDescription
+                }
+           }
+       }
+}
+
+update decel frequency
+mutation {
+    updateDecelFrequency(input:{
+        pk:"RGVjZWxCZWhhdmlvckRhdGFUeXBlOjEyNzI=",
+        count:1
+    })
+       { 
+           details{
+                id,
+                irt,
+                duration,
+                frequency{
+                    edges{
+                        node{
+                            id,
+                            count,
+                            time
+                        }
+                    }
+                }
+           }
+       }
+}
+
+
+When click on ClickSubmit
+mutation {
+    updateDecel(input:{
+        pk:"RGVjZWxCZWhhdmlvckRhdGFUeXBlOjEyNjk=", 
+        environment:"RW52aXJvbm1lbnRUeXBlOjE=", 
+        irt:5, intensity:"Severe", note:"Test Note", duration:"10:05"
+    })
+       { 
+           details{
+                id,
+                irt,
+                intensity,
+                note,
+                date,
+                duration,
+                template{
+                    id,
+                    behaviorDef,
+                    behaviorDescription
+                },
+                environment{
+                    id,
+                    name
+                },
+                status{
+                    id,
+                    statusName
+                }
+                frequency{
+                    edges{
+                        node{
+                            id,
+                            count,
+                            time
+                        }
+                    }
+                }
+           }
+       }
+}

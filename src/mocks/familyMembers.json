@@ -1,0 +1,51 @@
+{
+    "data": {
+        "family": {
+            "edges": [
+                {
+                    "node": {
+                        "id": "RmFtaWx5VHlwZTo0",
+                        "members": {
+                            "edges": [
+                                {
+                                    "node": {
+                                        "id": "RmFtaWx5TWVtYmVyVHlwZTo2",
+                                        "memberName": "ABC",
+                                        "relationship": {
+                                            "id": "UmVsYXRpb25zaGlwVHlwZTox",
+                                            "name": "Father"
+                                        },
+                                        "timeSpent": {
+                                            "edges": []
+                                        }
+                                    }
+                                },
+                                {
+                                    "node": {
+                                        "id": "RmFtaWx5TWVtYmVyVHlwZTo4",
+                                        "memberName": "ABC",
+                                        "relationship": {
+                                            "id": "UmVsYXRpb25zaGlwVHlwZTox",
+                                            "name": "Father"
+                                        },
+                                        "timeSpent": {
+                                            "edges": [
+                                                {
+                                                    "node": {
+                                                        "id": "VGltZVNwZW50VHlwZToz",
+                                                        "session": "Afternoon",
+                                                        "duration": "1 Hours"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

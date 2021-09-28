@@ -1,0 +1,221 @@
+{
+  "data": {
+    "getSessionRecordings": {
+      "edges": [
+        {
+          "node": {
+            "id": "U2Vzc2lvblJlY29yZGluZ0RhdGFUeXBlOjM0MjAz",
+            "sessionDate": "2020-04-16T07:03:52+00:00",
+            "targets": {
+              "id": "VGFyZ2V0QWxsb2NhdGVUeXBlOjYyNTM="
+            },
+            "sessionRecord": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "U2Vzc2lvblJlY29yZGluZ3NUeXBlOjE0Mg==",
+                    "entryTime": "2020-04-16T07:03:52.148629+00:00",
+                    "trial": "CORRECT",
+                    "sd": null,
+                    "step": null,
+                    "promptCode": null
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "U2Vzc2lvblJlY29yZGluZ0RhdGFUeXBlOjM0MjA0",
+            "sessionDate": "2020-04-16T07:34:35+00:00",
+            "targets": {
+              "id": "VGFyZ2V0QWxsb2NhdGVUeXBlOjYyNTM="
+            },
+            "sessionRecord": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "U2Vzc2lvblJlY29yZGluZ3NUeXBlOjE0NA==",
+                    "entryTime": "2020-04-16T07:34:34.977908+00:00",
+                    "trial": "CORRECT",
+                    "sd": null,
+                    "step": null,
+                    "promptCode": null
+                  }
+                },
+                {
+                  "node": {
+                    "id": "U2Vzc2lvblJlY29yZGluZ3NUeXBlOjE0Ng==",
+                    "entryTime": "2020-04-16T07:36:23.519517+00:00",
+                    "trial": "CORRECT",
+                    "sd": null,
+                    "step": null,
+                    "promptCode": null
+                  }
+                },
+                {
+                  "node": {
+                    "id": "U2Vzc2lvblJlY29yZGluZ3NUeXBlOjE0Nw==",
+                    "entryTime": "2020-04-16T07:38:23.040532+00:00",
+                    "trial": "ERROR",
+                    "sd": null,
+                    "step": null,
+                    "promptCode": null
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "U2Vzc2lvblJlY29yZGluZ0RhdGFUeXBlOjM0MjA1",
+            "sessionDate": "2020-04-16T08:01:07+00:00",
+            "targets": {
+              "id": "VGFyZ2V0QWxsb2NhdGVUeXBlOjM2Nw=="
+            },
+            "sessionRecord": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "U2Vzc2lvblJlY29yZGluZ3NUeXBlOjE0OA==",
+                    "entryTime": "2020-04-16T08:01:06.510022+00:00",
+                    "trial": "CORRECT",
+                    "sd": null,
+                    "step": null,
+                    "promptCode": null
+                  }
+                },
+                {
+                  "node": {
+                    "id": "U2Vzc2lvblJlY29yZGluZ3NUeXBlOjE0OQ==",
+                    "entryTime": "2020-04-16T08:01:10.604411+00:00",
+                    "trial": "PROMPT",
+                    "sd": null,
+                    "step": null,
+                    "promptCode": {
+                      "id": "UHJvbXB0Q29kZVR5cGU6Mg==",
+                      "promptName": "Verbal Prompt"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "id": "U2Vzc2lvblJlY29yZGluZ3NUeXBlOjE1Mw==",
+                    "entryTime": "2020-04-16T12:41:59.092152+00:00",
+                    "trial": "CORRECT",
+                    "sd": null,
+                    "step": null,
+                    "promptCode": null
+                  }
+                },
+                {
+                  "node": {
+                    "id": "U2Vzc2lvblJlY29yZGluZ3NUeXBlOjE1NA==",
+                    "entryTime": "2020-04-16T12:43:32.867854+00:00",
+                    "trial": "CORRECT",
+                    "sd": null,
+                    "step": null,
+                    "promptCode": null
+                  }
+                },
+                {
+                  "node": {
+                    "id": "U2Vzc2lvblJlY29yZGluZ3NUeXBlOjE1NQ==",
+                    "entryTime": "2020-04-16T12:44:47.381134+00:00",
+                    "trial": "CORRECT",
+                    "sd": null,
+                    "step": null,
+                    "promptCode": null
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "U2Vzc2lvblJlY29yZGluZ0RhdGFUeXBlOjM0MjA2",
+            "sessionDate": "2020-04-16T08:03:34+00:00",
+            "targets": {
+              "id": "VGFyZ2V0QWxsb2NhdGVUeXBlOjM3MA=="
+            },
+            "sessionRecord": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "U2Vzc2lvblJlY29yZGluZ3NUeXBlOjE1MA==",
+                    "entryTime": "2020-04-16T08:03:34.223362+00:00",
+                    "trial": "CORRECT",
+                    "sd": {
+                      "id": "TXVsdGlwbGVTRFR5cGU6MzM1",
+                      "sd": "Touch Nose"
+                    },
+                    "step": null,
+                    "promptCode": null
+                  }
+                },
+                {
+                  "node": {
+                    "id": "U2Vzc2lvblJlY29yZGluZ3NUeXBlOjE1MQ==",
+                    "entryTime": "2020-04-16T08:03:36.382221+00:00",
+                    "trial": "CORRECT",
+                    "sd": {
+                      "id": "TXVsdGlwbGVTRFR5cGU6MzM1",
+                      "sd": "Touch Nose"
+                    },
+                    "step": null,
+                    "promptCode": null
+                  }
+                },
+                {
+                  "node": {
+                    "id": "U2Vzc2lvblJlY29yZGluZ3NUeXBlOjE1Mg==",
+                    "entryTime": "2020-04-16T08:09:37.841283+00:00",
+                    "trial": "PROMPT",
+                    "sd": {
+                      "id": "TXVsdGlwbGVTRFR5cGU6MzM1",
+                      "sd": "Touch Nose"
+                    },
+                    "step": null,
+                    "promptCode": {
+                      "id": "UHJvbXB0Q29kZVR5cGU6Mg==",
+                      "promptName": "Verbal Prompt"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "id": "U2Vzc2lvblJlY29yZGluZ3NUeXBlOjE1Ng==",
+                    "entryTime": "2020-04-16T12:51:23.079119+00:00",
+                    "trial": "CORRECT",
+                    "sd": {
+                      "id": "TXVsdGlwbGVTRFR5cGU6MzM1",
+                      "sd": "Touch Nose"
+                    },
+                    "step": null,
+                    "promptCode": null
+                  }
+                },
+                {
+                  "node": {
+                    "id": "U2Vzc2lvblJlY29yZGluZ3NUeXBlOjE1Nw==",
+                    "entryTime": "2020-04-16T12:51:48.191801+00:00",
+                    "trial": "CORRECT",
+                    "sd": {
+                      "id": "TXVsdGlwbGVTRFR5cGU6MzM1",
+                      "sd": "Touch Nose"
+                    },
+                    "step": null,
+                    "promptCode": null
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

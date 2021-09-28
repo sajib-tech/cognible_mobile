@@ -1,0 +1,52 @@
+{
+    "data": {
+      "programArea": {
+        "edges": [
+          {
+            "node": {
+              "id": "UHJvZ3JhbUFyZWFUeXBlOjE=",
+              "name": "Occupational Therapy",
+              "__typename": "ProgramAreaType"
+            },
+            "__typename": "ProgramAreaTypeEdge"
+          },
+          {
+            "node": {
+              "id": "UHJvZ3JhbUFyZWFUeXBlOjI=",
+              "name": "Physiotherapy",
+              "__typename": "ProgramAreaType"
+            },
+            "_ _typename": "ProgramAreaTypeEdge"
+          },
+          {
+            "node": {
+              "id": "UHJvZ3JhbUFyZWFUeXBlOjM=",
+              "name": "Speech",
+              "__typename": "ProgramAreaType"
+            },
+            "__typename": "ProgramAreaTypeEdge"
+          },
+          {
+            "node": {
+              "id": "UHJvZ3JhbUFyZWFUeXBlOjQ=",
+              "name": "ABA",
+              "__typename": "ProgramAreaType"
+            },
+            "__typename": "ProgramAreaTypeEdge"
+          },
+          {
+            "node": {
+              "id": "UHJv Z3JhbUFyZWFUeXBlOjU=",
+              "name": "Special Education",
+              "__typename": "ProgramAreaType"
+            },
+            "__typename": "ProgramAreaTypeEdge"
+          }
+        ],
+        "__typename": "ProgramAreaTypeConnection"
+      }
+    },
+    "loading": false,
+    "networkStatus": 7,
+    "stale": false
+  }

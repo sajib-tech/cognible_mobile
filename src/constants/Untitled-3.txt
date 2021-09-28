@@ -1,0 +1,38 @@
+
+
+
+mutation FamilyMember($studentId: ID!, $memberName: String!, $relationship: ID!, $session: String!, $duration: String!){
+	familyMember(
+		input: {
+			student: $studentId,                                // "U3R1ZGVudFR5cGU6OTI="
+			memberName: $memberName,
+			relationship: $relationship,                        // "UmVsYXRpb25zaGlwVHlwZTox"
+			timeSpent: [{ 
+                session: $session,                              // "Afternoon", 
+                duration: $duration                             // "1 Hours" 
+            }]
+		}
+	) {
+		familyMember {
+			id
+		}
+	}
+}
+
+
+mutation TokenAuth($username: String!, $password: String!) {
+    tokenAuth(input: {username: $username, password: $password}) {
+      token,
+      user {
+        id,
+        groups {
+          edges {
+            node {
+              id,
+              name
+            }
+          }
+        }
+      }
+    }
+  }

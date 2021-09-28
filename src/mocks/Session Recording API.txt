@@ -1,0 +1,33 @@
+Session Recording API
+
+Every target will have its own Trails, Correct Response and Incorrect Responses
+
+For example:
+Target 1 is having  5 Trails, 
+Then we will show 1 of 5 Trails
+
+Q: When we call session Recording API
+A: Case: Correct Response
+    Trail info : 1 of 5 Trails
+    Correct Response count(initial): 0
+    When we click on Correct Response, We need to call session Recording API, based on success response, 
+    then we need to make first(1) trail box as Green and increase the Correct Response count by 1 and Highlignt Correct Response box with green color border.
+    If it is 2 of 5 Trails, then we need to make second(2) trail box as Green and so on.
+
+    Once we make trail box as green and increase the correct response count, then we need to move on to next trail(2 of 5), 
+    now do we need to make Correct Response box with initial count(0) for this trail(2), with no green color border. am I right ? please confirm.
+
+    When we move to next trail?
+    Once we moved, then what is correct response count?
+    When we should make a call to Session Recording API ?
+    For every trail we need make aa call Session Recording API ?
+
+    Case: Incorrect Response
+    Incorrect Response will have 5 radio buttons,when we choose radio button, except last radio button, all will fill up current trail box with Orange, last one will fill up current trail box with Amber(Red).
+    Once user selects radio, can have option to change ? If yes, then we make a call to Session Recording API ? 
+
+Q: When we click on ArrowDown at bottom, which moves on next target?
+Q: When we click on ArrowUp at bottom, which moves on previous target?
+
+
+

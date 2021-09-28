@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "945901803616",
+    "project_id": "cogniable-crashlytics",
+    "storage_bucket": "cogniable-crashlytics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945901803616:android:438e12d5e5ae0acfd88b05",
+        "android_client_info": {
+          "package_name": "com.cogniable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945901803616-h6j16hgujb2qh67e7f1ts3rer101dsgj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj8Nz0X_vg-OI_l7r5CBBEOKMeO_tpOtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945901803616-h6j16hgujb2qh67e7f1ts3rer101dsgj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "945901803616-13tbd2mjknqevi02upu1k647a3a6tfqs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cogniable.application",
+                "app_store_id": "1459476048"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
